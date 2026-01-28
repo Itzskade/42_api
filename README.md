@@ -45,7 +45,6 @@ You can generate these credentials from your 42 profile under [“OAuth Applicat
 
 ## 🔧 Installation
 
-
 ```bash 
 git clone https://github.com/itzksade/42_api.git
 cd 42_api
@@ -55,8 +54,6 @@ bundle install
 ---
 
 ## ▶️ Usage
-
-Run the script using Bundler followed by a 42 login.
 
 ```Example usage format:
 
