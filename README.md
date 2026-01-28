@@ -20,13 +20,12 @@ If you don’t have Ruby installed, you can use rbenv or any Ruby version manage
 
 ## 🔧 Installation
 
-Clone the repository: 
-```
-bash git clone https://github.com/itzksade/42_api.git
+
+```bash 
+git clone https://github.com/itzksade/42_api.git
 cd 42_api
 bundle install
 ```
-3. Install dependencies using Bundler
 
 ---
 
@@ -37,7 +36,7 @@ Create a `.env` file in the project folder with the following content:
 UID=your_api_uid_here  
 SECRET=your_api_secret_here
 
-You can generate these credentials from your 42 profile under “OAuth Applications”.
+You can generate these credentials from your 42 profile under [“OAuth Applications”](https://profile.intra.42.fr/oauth/applications)
 
 ---
 
@@ -45,9 +44,10 @@ You can generate these credentials from your 42 profile under “OAuth Applicati
 
 Run the script using Bundler followed by a 42 login.
 
-Example usage format:
+```Example usage format:
 
-bundle exec ruby 42school.rb <login>
+./42school.rb <login>
+```
 
 The script will show:
 
@@ -57,16 +57,6 @@ The script will show:
 
 ---
 
-## 📁 Project structure
-
-42_api_viewer/  
-• 42school.rb  
-• Gemfile  
-• Gemfile.lock  
-• .env  
-• README.md  
-
----
 
 ## 📝 Notes
 
