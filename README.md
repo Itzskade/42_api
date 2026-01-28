@@ -32,9 +32,15 @@ sudo apt install rbenv ruby-build
 ```
 Then add rbenv to your shell:
 ```
-echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc or ~/.zhsrc
-echo 'eval "$(rbenv init - bash)"' >> ~/.bashrc or ~/.zhsrc
-source ~/.bashrc or ~/.zhsrc
+echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
+echo 'eval "$(rbenv init - bash)"' >> ~/.bashrc
+source ~/.bashrc
+```
+
+```
+echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.zhsrc
+echo 'eval "$(rbenv init - bash)"' >> ~/.zhsrc
+source ~/.zhsrc
 ```
 
 - Ruby 3.3.x (recommended)
