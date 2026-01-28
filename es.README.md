@@ -18,6 +18,30 @@ La herramienta es simple, ligera y fácil de ejecutar en cualquier sistema.
 ## 📦 Requisitos
 
 Necesitas:
+En Fedora:
+```
+sudo dnf install rbenv ruby-build
+```
+En Arch / Manjaro:
+```
+sudo pacman -S rbenv ruby-build
+```
+En Ubuntu / Debian:
+```
+sudo apt install rbenv ruby-build
+```
+Después añade rbenv a tu shell:
+```
+echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
+echo 'eval "$(rbenv init - bash)"' >> ~/.bashrc
+source ~/.bashrc
+```
+o:
+```
+echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.zhsrc
+echo 'eval "$(rbenv init - zsh)"' >> ~/.zshrc
+source ~/.zshrc
+```
 
 - Ruby 3.3.x (recomendado)  
 ```
