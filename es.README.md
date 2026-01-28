@@ -21,10 +21,15 @@ La herramienta es simple, ligera y fácil de ejecutar en cualquier sistema.
 Necesitas:
 
 - Ruby 3.3.x (recomendado)  
-- Bundler  
+```
+rbenv install 3.3.10
+rbenv local 3.3.10
+```
+- Bundler 
+```
+gem install bundler
+```
 - Un archivo `.env` con tu UID y SECRET de la API de 42  
-
-Si no tienes Ruby instalado, puedes usar rbenv u otro gestor de versiones.
 
 ---
 
