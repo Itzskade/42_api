@@ -36,7 +36,7 @@ echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
 echo 'eval "$(rbenv init - bash)"' >> ~/.bashrc
 source ~/.bashrc
 ```
-
+or:
 ```
 echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.zhsrc
 echo 'eval "$(rbenv init - bash)"' >> ~/.zhsrc
