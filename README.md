@@ -39,8 +39,8 @@ source ~/.bashrc
 or:
 ```
 echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.zhsrc
-echo 'eval "$(rbenv init - bash)"' >> ~/.zhsrc
-source ~/.zhsrc
+echo 'eval "$(rbenv init - zsh)"' >> ~/.zshrc
+source ~/.zshrc
 ```
 
 - Ruby 3.3.x (recommended)
