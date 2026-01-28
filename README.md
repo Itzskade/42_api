@@ -19,6 +19,24 @@ This tool is simple, lightweight, and easy to run on any system.
 ## 📦 Requirements
 
 You need:
+On Fedora:
+```
+sudo dnf install rbenv ruby-build
+```
+On Arch / Manjaro:
+```
+sudo pacman -S rbenv ruby-build
+```
+On Ubuntu / Debian:
+```
+sudo apt install rbenv ruby-build
+```
+Then add rbenv to your shell:
+```
+echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc or ~/.zhsrc
+echo 'eval "$(rbenv init - bash)"' >> ~/.bashrc or ~/.zhsrc
+source ~/.bashrc or ~/.zhsrc
+```
 
 - Ruby 3.3.x (recommended)
 ```
@@ -58,6 +76,8 @@ bundle install
 ```Example usage format:
 
 ./42_api_viewer.rb <login>
+or
+bundle exec ruby 42_api_viewer.rb <login>
 ```
 
 The script will show:
