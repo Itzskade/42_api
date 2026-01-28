@@ -49,7 +49,7 @@ bundle install
 ## ▶️ Uso
 
 ```Formato de uso:
-./42school.rb <login>
+./42_api_viewer.rb <login>
 ```
 El script mostrará:
 
